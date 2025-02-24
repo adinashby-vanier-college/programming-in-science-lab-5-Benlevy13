@@ -17,7 +17,7 @@ def number_pattern(n):
     for j in range(1, i + 1):
       result += str(j)
     result += "\n"
-  return result 
+  return result.strip() 
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
 def sum_of_natural_numbers(n):
