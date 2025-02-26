@@ -5,7 +5,7 @@
 # *   *
 # *****
 def hollow_square(n):
-      result = ""
+  result = ""
   for i in range(n):
     result += "*"
   result += "\n"
