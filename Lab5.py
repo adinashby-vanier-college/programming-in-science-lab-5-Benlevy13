@@ -5,7 +5,21 @@
 # *   *
 # *****
 def hollow_square(n):
-    return ""
+      result = ""
+  for i in range(n):
+    result += "*"
+  result += "\n"
+
+  for i in range(n - 2):
+    result += '*'
+    for j in range( n - 2):
+      result += " "
+    result += '*\n'
+
+  for i in range(n):
+    result += "*"
+  result += "\n"
+  return result.strip()
 
 # 1
 # 12
