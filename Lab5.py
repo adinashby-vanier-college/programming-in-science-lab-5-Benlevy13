@@ -5,6 +5,8 @@
 # *   *
 # *****
 def hollow_square(n):
+  if n == 1:
+    return '*' 
   result = ""
   for i in range(n):
     result += "*"
