@@ -42,7 +42,7 @@ def sum_of_natural_numbers(n):
   while i <= n:
     total += i
     i += 1
-  return total.strip()
+  return total
 
 # Example for n = 4:
 #    *
