@@ -37,12 +37,12 @@ def number_pattern(n):
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
 def sum_of_natural_numbers(n):
-  total = 0
-  i = 1
-  while i <= n:
-    total += i
-    i += 1
-return total
+    total = 0
+    i = 1
+    while i <= n:
+      total += i
+      i += 1
+  return total
 
 # Example for n = 4:
 #    *
