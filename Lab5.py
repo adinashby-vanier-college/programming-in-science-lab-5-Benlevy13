@@ -50,11 +50,9 @@ def sum_of_natural_numbers(n):
 #  *****
 # *******
 def centered_star_pyramid(n):
-  result = ''
-  for i in range(n):
-    for j in range(1,  n - i):
-      result += ' '
-    for b in range(2 * i + 1):
-      result += '*'
-    result += '\n'
-  return result.strip()
+  pyramid = []
+  for i in range(1, n + 1):
+    stars = '*' * (2 * i - 1)
+    spaces = ' ' * (n - i)
+    pyramid.append(spaces + stars)
+  return '\n'.join(pyramid)
